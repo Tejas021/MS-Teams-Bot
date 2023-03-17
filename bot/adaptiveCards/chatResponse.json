@@ -1,0 +1,20 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "TextBlock",
+        "size": "large",
+        "weight": "Bolder",
+        "text": "Hello this is ChatGPT"
+      },
+      
+      {
+        "type": "TextBlock",
+        "text": "${text}"
+      }
+    ],
+    
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4"
+  }
+  

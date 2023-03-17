@@ -1,0 +1,27 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size":"large",
+      "weight":"bolder",
+      "text": "ChatGPT Integration"
+    },
+     {
+      "type": "Input.Text",
+      "id": "chatQuery",
+      "label": "Enter your query",
+     
+      "inlineAction": {
+        "type": "Action.Execute",
+        "verb":"chatQuery",
+     
+        "iconUrl": "https://adaptivecards.io/content/send.png",
+        "tooltip": "Send"
+      }}
+  ]
+  
+     
+}

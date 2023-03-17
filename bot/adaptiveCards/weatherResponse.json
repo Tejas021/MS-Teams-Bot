@@ -1,0 +1,34 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "TextBlock",
+        "size": "large",
+        "weight": "Bolder",
+        "text": "Weather Conditions in ${city}"
+      },
+      
+      {
+        "type": "FactSet",
+        "facts": [
+          {
+            "title": "City :",
+            "value": "${city}"
+          },{
+            "title":"Temperature :",
+            "value":"${temperature}"
+          },{
+            "title":"Humidity :",
+            "value":"${humidity}"
+          },{
+            "title":"Pressure :",
+            "value":"${pressure}"
+          }
+        ]
+      }
+    ],
+    
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4"
+  }
+  
